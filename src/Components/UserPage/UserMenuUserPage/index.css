@@ -1,0 +1,13 @@
+.userMenu ul{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  /* margin: 0; */
+  margin-bottom: 25px;
+}
+
+.userMenu li{
+  list-style: none;
+  margin: 0 5px;
+}
+

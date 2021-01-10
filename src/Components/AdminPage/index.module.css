@@ -1,0 +1,84 @@
+.mainBlock{
+  display: flex;
+    justify-content: space-around;
+    /* margin: 0; */
+    /* padding: 0; */
+    color: #fff;
+    height: 88vh;
+    width: 100%;
+}
+
+.adminWrap{
+  width: 1310px;
+  display: flex;
+  justify-content: center;
+}
+
+.peopleBlock{
+  /* border: 1px solid black; */
+  width: 48%;
+  overflow-y: auto;
+}
+.groupsBlock{
+  /* border: 1px solid black; */
+  width: 50%;
+  overflow-y: auto;
+}
+.headBlock{
+      /* width: 96%; */
+    /* margin: 2% 2% 0; */
+    height: 150px;
+    /* border: 1px solid #000; */
+    /* color: #ffebcd; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.people{
+  display: flex;
+    flex-direction: row;
+    margin: 30px;
+    justify-content: center;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 10px;
+  }
+.peopleNames{
+  width: 60%;
+  align-items: center;
+  display: flex;
+}
+
+.peopleNames p{
+  margin-bottom: 0px;
+}
+
+.groupMain{
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid black; */
+   margin: 5px;
+   /* border-radius: 20px; */
+   padding: 10px;
+   border-bottom: 1px solid #cccccc;
+}
+.groupsNames{
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.groupsFirstColumn{
+  width: 35%;
+}
+.buttonBlock{
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar {
+  width: 50px;
+}
+
+h1 {
+  color: #4520ab;
+}

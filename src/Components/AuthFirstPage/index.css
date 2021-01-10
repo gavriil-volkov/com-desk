@@ -1,0 +1,43 @@
+
+.inputMain {
+/* display: flex;
+flex-direction: row;
+justify-content: space-around; */
+width: 1310px;
+display: flex;
+align-items: center;
+}
+.regMain {
+  display: flex;
+  align-items: center;
+  }
+.signInForm {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+margin: 10px;
+height: 50vh;
+}
+
+.button {
+  width: 50%;
+}
+
+.wrapper {
+  /* background-color: #4520AB; */
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.bgImg {
+  background: url(../img/signin-bg.jpg);
+  height: 90vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

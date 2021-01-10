@@ -1,0 +1,106 @@
+.editHeader h1 {
+  color: #4520AB;
+}
+
+.editHeader {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.editPge {
+  width: 1310px;
+}
+
+/* .editPhoto img{
+  width: 100px;
+  border-radius: 100%;
+} */
+
+.editProfilePhoto{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-size: cover!important;
+  background-position: 50% 15%!important;
+  background-repeat: no-repeat!important;
+}
+
+.editPhoto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.changePhoto {
+  border: none;
+}
+
+.changePhoto {
+  color: transparent;
+  padding: 0;
+  margin: 0;
+  width: 225px;
+}
+
+.changePhoto::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.changePhoto::before {
+  content: 'ИЗМЕНИТЬ ФОТО';
+  background-color: #ffbc5b;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: #4520AB;
+  font-family: 'RF Rostin';
+  outline: none;
+  cursor: pointer;
+  margin-left: 25px;
+}
+
+.deletePhoto {
+  color: rgb(182, 0, 0);
+  border: none;
+  background-color: #f0f8ff00;
+  padding: 10px 0;
+  margin-left: 25px;
+  font-family: 'RF Rostin'!important;
+}
+
+.labelEditBold {
+  font-family: 'RF Rostin Bold';
+  color: #4520AB;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.editProfileInput {
+  margin-left: 0;
+  border: none;
+  outline: none!important;
+  color: #000;
+}
+
+.saveChanges {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.editUserForm {
+  margin-top: 25px;
+}
+
+.userPic {
+  color: #000;
+  border-bottom: 0;
+  white-space: normal;
+}
+
+.avatarForm {
+  display: flex;
+  align-items: center;
+}

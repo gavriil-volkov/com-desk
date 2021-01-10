@@ -1,0 +1,111 @@
+.formFiles {
+  color: #000;
+  padding: 0;
+  /* width: 100%; */
+  margin-top: 25px;
+  font-family: 'RF Rostin'!important;
+}
+.formFiles{
+  content: "";
+}
+.formFiles::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.formFiles::before {
+  content: '';
+  /* color: black; */
+  display: flex;
+  /* background-color: #ffbc5b; */
+  background-image: url(../img/camera.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: 1%; */
+  /* border: 1px solid #999; */
+  border-radius: 3px;
+  padding: 15px 30px;
+  max-width: 50px;
+  outline: none;
+  /* white-space: nowrap; */
+  /* -webkit-user-select: none; */
+  cursor: pointer;
+  /* text-shadow: 1px 1px #fff; */
+  /* font-weight: 700; */
+  /* font-size: 10pt; */
+  border-radius: 5px;
+  float: left;
+}
+/* .formFiles:hover::before {
+  border-color: black;
+} */
+/* .formFiles:active {
+  outline: 0;
+} */
+/* .formFiles:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); 
+} */
+
+.postButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 35px!important;
+}
+
+.postTitle {
+  text-align: left;
+  outline: none;
+  width: 100%;
+  color: #000;
+  padding: 0;
+  font-family:'RF Rostin Bold';
+  font-size: 20px;
+}
+
+.postText {
+  outline: none;
+  width: 100%;
+  color: #000;
+}
+
+.postTitle::placeholder {
+  color: gray;
+}
+
+.postText::placeholder {
+  color: gray;
+}
+
+.formWrap {
+  background-color: #fff;
+    padding: 35px 35px 0;
+    border-radius: 5px;
+}
+
+.dropzone {
+  outline: none;
+  margin-right: 25px;
+}
+
+.dragBlock {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.UserPostTitle {
+  padding: 35px!important;
+  color: #4520ab;
+  font-family:'RF Rostin Bold';
+  font-size: 25px;
+}
+
+.UserPostImage {
+
+}
+
+.UserPostButton {
+}
+
+.UserPostText {
+  padding: 0 35px!important;
+}

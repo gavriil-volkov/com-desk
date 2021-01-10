@@ -1,0 +1,33 @@
+.submBut{
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  border-radius: 0;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  outline: none;
+  margin: 10px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(255, 255, 255, 0.5);
+  opacity: 1; /* Firefox */
+}
+
+.file-upload {
+  width: 100%;
+}
+
+.file-upload input {
+
+  /* color: rgb(0, 0, 0); */
+  color: #00000094;
+
+  font-family:'RF Rostin Bold';
+}

@@ -1,0 +1,71 @@
+.groupListWrap {
+  width: 1310px;
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.groupCardWrap {
+  width: 30%;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  /* display: flex; */
+  /* justify-content: space-around; */
+  /* float: left; */
+}
+
+.groupBody {
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  background: #E6E6E6;
+  flex-direction: column;
+}
+
+.groupHeader {
+  color: #4520AB;
+  /* padding: 50px 0; */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.userHeader {
+  color: #4520AB;
+  font-size: 20px;
+}
+
+.groupInfo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.card-img {
+  /* padding: 25px; */
+  height: 250px;
+  /* max-height: 250px; */
+  display: flex;
+  justify-content: center;
+}
+
+.groupAvatar {
+  /* max-height: 250px; */
+  /* display: flex;
+  justify-content: center; */
+  margin-bottom: 25px;
+}
+
+.city {
+  /* margin-bottom: 50px; */
+}
+
+.card-img-group {
+  /* height: auto; */
+  width: 100%;
+    display: flex;
+    justify-content: center;
+}

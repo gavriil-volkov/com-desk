@@ -1,0 +1,16 @@
+.userMenu ul{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.userMenu li{
+  list-style: none;
+  margin: 0 5px;
+}
+
+.animalsPic {
+  width: 75px;
+  border-radius: 50px;
+}

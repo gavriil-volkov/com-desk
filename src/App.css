@@ -1,0 +1,392 @@
+/* @import url('./fonts/RF-Rostin-Bold.ttf');
+@import url('./fonts/RF-Rostin-Light.ttf'); */
+button {
+  outline: none;
+  font-family:'RF Rostin Bold'!important;
+}
+
+@font-face{font-family:'RF Rostin'; src:url('./fonts/RF-Rostin-Regular.ttf')}
+@font-face{font-family:'RF Rostin Bold'; src:url('./fonts/RF-Rostin-Bold.ttf')}
+@font-face{font-family:'RF Rostin Light'; src:url('./fonts/RF-Rostin-Light.ttf')}
+
+button:focus {
+  outline: none!important;
+}
+
+body{
+  font-family: 'RF Rostin Light', sans-serif!important;
+  font-size:18px;
+  background-color: #4520AB;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'RF Rostin Bold', sans-serif!important;
+}
+
+strong {
+  font-family: 'RF Rostin Bold', sans-serif!important;
+}
+
+/* p {} */
+
+.blockWrapper {
+  min-height: 90vh;
+  justify-content: center;
+  display: flex;
+  padding: 50px 0;
+  background-color: #E6E6E6;
+  align-items: baseline;
+}
+
+.blueSymbols {
+  color: #00EDFF;
+}
+
+.yellowSymbols {
+  color: #ffbc5b;
+}
+
+.req span {
+  color: #ffbc5b;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #d2d1d1;
+  /* border-radius: 5px; */
+  border-radius: 7px;
+
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 7px;
+  background-color:  #aaaaaa; 
+  border: 4px solid #d2d1d1;
+  height: 100px;
+}
+
+.footer {
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p{
+  color: #ffbc5b;
+  margin: 0;
+}
+
+.signButton {
+  color: #ffbc5b;
+  border-radius: 5px;
+  border: solid 1px #ffbc5b;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  outline: none!important;
+  /* box-shadow: none; */
+  font-size: 18px;
+}
+
+
+.signButton:hover {
+  border: solid 1px #00EDFF;
+  font-family: 'RF Rostin';
+  /* box-shadow: none; */
+  color: #4520AB;
+  background: #00EDFF;
+  text-decoration: none;
+  outline: none!important;
+  box-shadow: 0 0 20px #00EDFF;
+  transition: box-shadow 1s ease-in-out;
+}
+
+.yellowButton:focus {
+  outline: none;
+} 
+
+.MuiFab-primary {
+  background-color: #00EDFF!important;
+  color: #4520AB!important;
+}
+
+.MuiFab-primary:hover {
+  background-color: #ffbc5b!important;
+  color: #4520AB!important;
+}
+
+.MuiFab-primary:active {
+  background-color: #ffbc5b!important;
+  color: #4520AB!important;
+}
+
+.MuiSpeedDialAction-fab {
+  /* transition: none!important; */
+}
+
+.yellowButton {
+  background-color: #ffbc5b!important;
+  border: none!important;
+  padding: 10px 30px!important;
+  border-radius: 5px!important;
+  color: #4520AB!important;
+  font-family: 'RF Rostin'!important;
+}
+
+.yellowButton:hover {
+  box-shadow: 0 0 20px #ffc107;
+  transition: box-shadow 1s ease-in-out;
+}
+
+.yellowButton:active {
+  box-shadow: none;
+  border: none!important;
+}
+
+.yellowPulseButton {
+  background-color: #ffbc5b!important;
+  border: none!important;
+  padding: 10px 30px!important;
+  border-radius: 5px!important;
+  color: #4520AB!important;
+  font-family: 'RF Rostin'!important;
+
+  box-shadow: 0 0 20px #ffc107;
+  animation: pulse 2s infinite;
+}
+
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 #ffc107;
+  }
+  70% {
+      -webkit-box-shadow: 0 0 10px 15px rgba(204,169,44,0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 #ffc107;
+    box-shadow: 0 0 0 0 #ffc107;
+  }
+  70% {
+      -moz-box-shadow: 0 0 10px 15px rgba(204,169,44,0);
+      box-shadow: 0 0 10px 15px rgba(204,169,44,0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+      box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}
+
+
+.purpleButton {
+  background-color: #4520AB!important;
+  border: none!important;
+  padding: 10px 30px!important;
+  border-radius: 5px!important;
+  color: #ffbc5b!important;
+  font-family: 'RF Rostin'!important;
+  outline: none!important;
+  box-shadow: none!important;
+  margin-bottom: 10px;
+}
+
+.purpleButton:hover {
+
+  box-shadow: 0 0 20px #5d32d4!important;
+
+  transition: box-shadow 1s ease-in-out!important;
+}
+
+.purpleButton:focus {
+  outline: none;
+}
+
+.logoutButton {
+  background-color: #ffbc5b;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: #4520AB;
+  font-family: 'RF Rostin';
+  outline: none;
+}
+
+#firstButton {
+  margin-right: 15px;
+}
+
+.purpleColor {
+  color: #4520AB;
+}
+
+.animals {
+  height: 50px;
+  
+}
+
+input {
+  outline: none;
+}
+
+button.close {
+  outline: none;
+}
+
+.btn.focus, .btn:focus {
+  box-shadow: none;
+}
+
+.btn-outline-secondary:active {
+  background-color: #00EDFF!important;
+  border-color: #00EDFF!important;
+  box-shadow: none!important;
+  color: #4520AB!important;
+}
+
+.logoBlock img {
+  width: 400px;
+}
+
+.success {
+       border: none;
+       margin: 30px 0;
+       color: #66ff00;
+       font-family: "RF Rostin Bold";
+}
+
+.error {
+     border: none;
+     margin: 30px 0;
+     color: #ff0022;
+     font-family: "RF Rostin Bold";
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+
+  .slide {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .MuiStepLabel-label {
+    font-family: "RF Rostin Bold"!important;
+    font-size: 16px!important;
+    color: #fff!important;
+  }
+
+ .MuiStepLabel-active {
+    font-family: "RF Rostin Bold"!important;
+    text-transform: uppercase!important;
+    font-size: 20px!important;
+    color: #ffbc5b!important;
+  }
+
+  .MuiStepper-root {
+    background-color: #4520ab!important;
+  }
+
+  .MuiStepConnector-line {
+    border-color: #3d1e94!important;
+  }
+
+  .MuiStepIcon-active {
+    color: #ffbc5b!important;
+  }
+
+  .MuiStepIcon-text {
+    fill: #4520ab!important;
+    font-family: "RF Rostin Bold"!important;
+  }
+
+.MuiStepIcon-completed {
+  color: rgba(0, 0, 0, 0.38)!important;
+}
+
+.MuiStepper-root {
+  border-radius: 0 0 5px 5px!important;
+}
+
+.jss3 {
+  /* margin-top: 20px!important; */
+  margin-bottom: 20px!important;
+}
+
+.MuiStepper-root {
+  height: 120px!important;
+  padding: 0 50px!important;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.iconMenu {
+  margin-bottom: 25px;
+}
+
+
+.rootButton {
+  background-color: #00edff;
+  border: none!important;
+  padding: 10px 30px!important;
+  border-radius: 5px!important;
+  color: #4520ab!important;
+  font-family: "RF Rostin"!important;
+}
+
+.userMail {
+  color: #4520ab;
+    background-color: #ffbc5b;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.userMail:hover {
+  color: #4520ab;
+    background-color: #00edff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #00b8c5!important;
+  transition: box-shadow 1s ease-in-out!important;
+}
+
+.ymaps {
+  border-radius: 500px!important;
+  overflow: auto;
+  filter: saturate(2.5);
+}
+
+
+.mapWrap {
+  width: 1310px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    min-height: 600px;
+}
+
+.blockAdminWrapper {
+  height: 90vh;
+  justify-content: center;
+  display: flex;
+  padding: 50px 0;
+  background-color: #e6e6e6;
+}

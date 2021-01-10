@@ -1,0 +1,93 @@
+.userMainBlock{
+  /* width: 100vw; */
+  background-color: #E6E6E6;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  /* background: chartreuse; */
+  /* flex-direction: row; */
+  /* min-width: 1300px; */
+  /* justify-content: space-between; */
+}
+
+.userName {
+  padding: 25px;
+  text-align: center;
+}
+
+.userName h1 {
+  color: #4520AB;
+  
+}
+
+.userWrap {
+  width: 1310px;
+  display: flex;
+}
+
+.leftColumn{
+  /* border: solid black 1px; */
+  width: 30%;
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+/* min-width: 255px; */
+  align-items: center;
+}
+
+.fotoBlock img{
+  /* border: solid black 1px; */
+/* height: 250px; */
+width: 250px;
+margin-top: 5px;
+border-radius: 100%;
+}
+.userMenuBlock{
+  text-align: center;
+}
+.rightColumn{
+  /* border: solid black 1px; */
+width: 70%;
+margin: 50px 0;
+display: flex;
+flex-direction: column;
+margin-left: 50px;
+/* align-items: center; */
+}
+
+.rightColumn input {
+  margin: 0;
+  border: none;
+}
+
+.rightColumn textarea {
+  border: none;
+}
+
+.newPostBlock{
+  /* border: solid black 1px; */
+  margin-bottom: 50px;
+}
+.wallBlock{
+  /* border: solid black 1px; */
+  width: 100%;
+  height: 100%;
+  /* margin: 5px; */
+}
+
+.userPostForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.userAvatar{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+    background-position: 50% 15%!important;
+}

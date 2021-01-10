@@ -1,0 +1,46 @@
+.header{
+display: flex;
+justify-content: flex-end;
+min-width: 500px;
+align-content: center;
+height: 10vh;
+align-items: center;
+}
+
+.menuWrap{
+  width: 1310px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainBlock{
+display: flex;
+justify-content: center;
+align-content: center;
+background-color: #4520AB;
+/* position: absolute;
+width: 100%; */
+}
+
+nav a {
+  margin-left: 25px;
+}
+
+a {
+color: #00EDFF;
+/* margin-left: 50px; */
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ffbc5b;
+}
+
+.menuLogoBlock img{
+  width: 50px;
+}
+
+.menuLogoBlock {
+  display: flex;
+  align-items: center;
+}
