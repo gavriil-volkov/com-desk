@@ -28,6 +28,8 @@
 
 ### `Регистрация юзера`
 
+Каждый юзер может зарегистрироваться указав свои данные.
+
 ![screenshot](gifs/Registration.gif)
 
 #
@@ -89,19 +91,32 @@ Password: aaaa
 
 ![screenshot](gifs/Admin.gif)
 
+#
+## Файл .env (Корневая папка):
 
-Файл .env (Корневая папка):
 SKIP_PREFLIGHT_CHECK=true
+
 REACT_APP_URL=http://localhost:3000
 
-Файл .env (Папка backend):
+#
+## Файл .env (Папка backend):
+
 PORT=3000
+
 MONGO_DB='ЗАПРОСИТЬ У АВТОРА'
+
 HOST:http://localhost:3001
+
 SECRET:'ЗАПРОСИТЬ У АВТОРА'
+
 GITHUB_CLIENT_ID = ЗАПРОСИТЬ У АВТОРА
+
 GITHUB_CLIENT_SECRET = ЗАПРОСИТЬ У АВТОРА
+
 GITHUB_CALLBACK_URL = /auth/github/callback
+
 GOOGLE_CLIENT_ID = ЗАПРОСИТЬ У АВТОРА
+
 GOOGLE_CLIENT_SECRET = ЗАПРОСИТЬ У АВТОРА
+
 GOOGLE_CALLBACK_URL = /auth/google/callback
