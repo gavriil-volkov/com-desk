@@ -1,5 +1,6 @@
 # FullStack Корпоративный портал COM.DESK 
-# (React, Redux, Express, MongoDB)
+
+## Стэк - React, Redux, Express, MongoDB
 
 ## Приложение COM.DESK поможет вам оставаться на связи и следить за успехами своих коллег внутри закрытого комьюнити
 
