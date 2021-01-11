@@ -12,6 +12,18 @@
 - закрытй портал
 - блог
 
+## Для запуска проекта
+
+- Склонировать проект
+- Инициализировать проект в корневой папке - yarn
+- В папке backend инициализировать проект - npm i
+- В корневой папке создать файл .env (Смотреть внизу README)
+- В папке backend создать файл .env 
+- Запустить проект из папки backend - npm start
+- Для запуска приложения используется база MongoDB в Atlas
+- Приложение запустится после билда (дождаться окончания) по адресу localhost:3000
+
+#
 ## Возможности приложения
 
 ### `Регистрация юзера`
@@ -71,4 +83,25 @@
 
 Администратор может удалять юзеров, создавать/редактировать/удалять группы.
 
+Login: admin@mail.ru
+
+Password: aaaa
+
 ![screenshot](gifs/Admin.gif)
+
+
+Файл .env (Корневая папка):
+SKIP_PREFLIGHT_CHECK=true
+REACT_APP_URL=http://localhost:3000
+
+Файл .env (Папка backend):
+PORT=3000
+MONGO_DB='ЗАПРОСИТЬ У АВТОРА'
+HOST:http://localhost:3001
+SECRET:'ЗАПРОСИТЬ У АВТОРА'
+GITHUB_CLIENT_ID = ЗАПРОСИТЬ У АВТОРА
+GITHUB_CLIENT_SECRET = ЗАПРОСИТЬ У АВТОРА
+GITHUB_CALLBACK_URL = /auth/github/callback
+GOOGLE_CLIENT_ID = ЗАПРОСИТЬ У АВТОРА
+GOOGLE_CLIENT_SECRET = ЗАПРОСИТЬ У АВТОРА
+GOOGLE_CALLBACK_URL = /auth/google/callback
