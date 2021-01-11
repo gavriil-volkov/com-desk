@@ -4,6 +4,8 @@
 
 ## Стэк - React, Redux, Express, MongoDB
 
+### Видео презентация проекта: https://youtu.be/ZWpFWjCn5I8
+
 ### Приложение возможно использовать как: 
 
 - решение Digital Signage для сенсорного киоска
