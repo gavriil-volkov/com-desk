@@ -2,7 +2,7 @@
 
 ## Приложение COM.DESK поможет вам оставаться на связи и следить за успехами своих коллег внутри закрытого комьюнити
 
-## Стек - React, Redux, Express, MongoDB
+## Стек - React, Redux(Thunk), Passport.JS, Express, MongoDB
 
 ### Видео презентация проекта: https://youtu.be/ZWpFWjCn5I8
 
