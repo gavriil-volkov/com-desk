@@ -2,7 +2,7 @@
 
 ## Приложение COM.DESK поможет вам оставаться на связи и следить за успехами своих коллег внутри закрытого комьюнити
 
-## Стек - React, Redux(Thunk), Passport.JS, Express, MongoDB
+## Стек - React.js, Redux(Thunk), Passport.js, Express.js, MongoDB
 
 ### Видео презентация проекта: https://youtu.be/ZWpFWjCn5I8
 
@@ -41,7 +41,7 @@
 ![screenshot](gifs/Registration.gif)
 
 #
-### `Авторизация через социальные сети (Passport.JS)`
+### `Авторизация через социальные сети (Passport.js)`
 
 - GitHub - Автоматически подтягивается имя пользователи и аккаунт GitHub в профиль юзера
 - Google - Автоматически подтягивается имя пользователи Google в профиль юзера
